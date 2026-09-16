@@ -259,11 +259,7 @@ Prediction Probability
 * Random Forest model
 * Simple and interactive interface
 
-### Live Demo
-
-[🚀 Try the Customer Churn Prediction App](https://customer-churn-prediction-yc2ddshjwu5cayzmmsqk34.streamlit.app/)
-
-### Run Locally
+### Run the Application
 
 Install the required libraries:
 
@@ -276,6 +272,10 @@ Run the Streamlit application:
 ```bash
 streamlit run app.py
 ```
+
+### Live Demo
+
+Add your deployed Streamlit application link here.
 
 ---
 
@@ -356,20 +356,7 @@ streamlit run app.py
 * Test additional Machine Learning models.
 * Improve the Streamlit interface.
 * Add SHAP-based model explanations.
-
----
-
-## Conclusion
-
-This project demonstrates an end-to-end Machine Learning workflow for predicting customer churn.
-
-The dataset was cleaned and explored, followed by feature preprocessing and training of three classification models: Logistic Regression, Decision Tree, and Random Forest.
-
-Among the tested models, Random Forest achieved the highest observed test-set performance and was selected for the final application. The model was then integrated into a Streamlit application that allows users to enter customer information and receive a churn prediction with its probability.
-
-The project also provided practical experience with data preprocessing, classification models, model evaluation, feature importance, and Machine Learning deployment.
-
-Further validation, including cross-validation and investigation of the unusually high test performance, would be useful before considering the model ready for real-world use.
+* Deploy the application online.
 
 ---
 
@@ -383,5 +370,5 @@ Further validation, including cross-validation and investigation of the unusuall
 
 ```
 
-Now your README has the **real Streamlit Live Demo link**, no duplicated Streamlit section, no correlation heatmap/photo, and a proper **Conclusion** at the end.
+This version **does not include the correlation heatmap/photo**. The `images` folder now only contains the **feature importance, confusion matrix, and ROC curve** images.
 ```
