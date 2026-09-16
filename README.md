@@ -232,9 +232,47 @@ Feature importance shows which features contributed most to the model's predicti
 
 ---
 
+````markdown
 ## Streamlit Deployment
 
 The trained Random Forest model was integrated into a Streamlit application.
+
+### Application Workflow
+
+```text
+Customer Input
+      ↓
+Data Preprocessing
+      ↓
+Random Forest Model
+      ↓
+Churn Prediction
+      ↓
+Prediction Probability
+````
+
+### Streamlit Features
+
+* Customer input form
+* Churn prediction
+* Prediction probability
+* Random Forest model
+* Simple and interactive interface
+
+### Live Demo
+
+[🚀 Try the Customer Churn Prediction App](https://customer-churn-prediction-yc2ddshjwu5cayzmmsqk34.streamlit.app/)
+
+### Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+```
+```
+
 
 ### Application Workflow
 
