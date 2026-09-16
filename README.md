@@ -249,17 +249,21 @@ Random Forest Model
 Churn Prediction
       ↓
 Prediction Probability
-````
+```
 
 ### Streamlit Features
 
-* Customer input form
-* Churn prediction
-* Prediction probability
-* Random Forest model
-* Simple and interactive interface
+- Customer input form
+- Churn prediction
+- Prediction probability
+- Random Forest model
+- Simple and interactive interface
 
-### Run the Application
+### Live Demo
+
+[🚀 Try the Customer Churn Prediction App](https://customer-churn-prediction-yc2ddshjwu5cayzmmsqk34.streamlit.app/)
+
+### Run Locally
 
 Install the required libraries:
 
@@ -273,23 +277,19 @@ Run the Streamlit application:
 streamlit run app.py
 ```
 
-### Live Demo
-
-Add your deployed Streamlit application link here.
-
 ---
 
 ## Technologies Used
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Jupyter Notebook
-* Streamlit
-* Joblib
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+- Streamlit
+- Joblib
 
 ---
 
@@ -349,26 +349,36 @@ streamlit run app.py
 
 ## Future Improvements
 
-* Perform cross-validation.
-* Investigate the unusually high test performance.
-* Check for possible data leakage.
-* Apply hyperparameter tuning using `GridSearchCV`.
-* Test additional Machine Learning models.
-* Improve the Streamlit interface.
-* Add SHAP-based model explanations.
-* Deploy the application online.
+- Perform cross-validation.
+- Investigate the unusually high test performance.
+- Check for possible data leakage.
+- Apply hyperparameter tuning using `GridSearchCV`.
+- Test additional Machine Learning models.
+- Improve the Streamlit interface.
+- Add SHAP-based model explanations.
+
+---
+
+## Conclusion
+
+This project demonstrates an end-to-end Machine Learning workflow for predicting customer churn.
+
+The dataset was cleaned and explored, followed by feature preprocessing and training of three classification models: Logistic Regression, Decision Tree, and Random Forest.
+
+Among the tested models, Random Forest achieved the highest observed test-set performance and was selected for the final application. The model was then integrated into a Streamlit application that allows users to enter customer information and receive a churn prediction with its probability.
+
+The project provided practical experience with data preprocessing, classification models, model evaluation, feature importance, and Machine Learning deployment.
+
+Further validation, including cross-validation and investigation of the unusually high test performance, would be useful before considering the model ready for real-world use.
 
 ---
 
 ## References
 
-* [Kaggle Dataset](https://www.kaggle.com/datasets/abdullah0a/telecom-customer-churn-insights-for-analysis)
-* [Scikit-learn Documentation](https://scikit-learn.org/stable/)
-* [Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
-* [Scikit-learn Metrics](https://scikit-learn.org/stable/api/sklearn.metrics.html)
-* [Streamlit Documentation](https://docs.streamlit.io/)
-
+- [Kaggle Dataset](https://www.kaggle.com/datasets/abdullah0a/telecom-customer-churn-insights-for-analysis)
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+- [Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+- [Scikit-learn Metrics](https://scikit-learn.org/stable/api/sklearn.metrics.html)
+- [Streamlit Documentation](https://docs.streamlit.io/)
 ```
-
-This version **does not include the correlation heatmap/photo**. The `images` folder now only contains the **feature importance, confusion matrix, and ROC curve** images.
-```
+````
