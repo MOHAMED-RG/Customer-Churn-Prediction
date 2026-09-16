@@ -173,7 +173,7 @@ Based on the observed test-set results, **Random Forest** achieved the highest p
 
 Therefore, Random Forest was selected as the final model for the Streamlit application.
 
-> Note: The perfect test performance is unusually high. Further validation should be performed to check for possible data leakage, dataset construction issues, or overfitting.
+> **Note:** The perfect test performance is unusually high. Further validation should be performed to check for possible data leakage, dataset construction issues, or overfitting.
 
 ---
 
@@ -228,7 +228,7 @@ The main features included:
 
 Feature importance shows which features contributed most to the model's predictions.
 
-> Feature importance is model-specific and should not be interpreted as proof of a causal relationship.
+> **Note:** Feature importance is model-specific and should not be interpreted as proof of a causal relationship.
 
 ---
 
