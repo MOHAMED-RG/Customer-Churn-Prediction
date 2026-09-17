@@ -109,7 +109,6 @@ Some notable correlations were:
 These correlations provide an initial understanding of relationships between customer features and churn.
 
 ![Correlation Heatmap](images/correlation_heatmap.png)
-
 ---
 
 ## Data Preprocessing
