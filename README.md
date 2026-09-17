@@ -320,15 +320,6 @@ Customer-Churn-Prediction/
 └── streamlit_app.png
 ```
 
-### Run Locally
-
-Install the required libraries:
-
-```bash
-pip install -r requirements.txt
-
-```
-
 ## Future Improvements
 
 - Perform cross-validation.
