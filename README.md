@@ -108,7 +108,7 @@ Some notable correlations were:
 
 These correlations provide an initial understanding of relationships between customer features and churn.
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](correlation_heatmap.png)
 ---
 
 ## Data Preprocessing
@@ -190,7 +190,7 @@ The Random Forest model achieved:
 
 ### Confusion Matrix
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 The test set contained 200 samples.
 
@@ -212,7 +212,7 @@ This resulted in:
 
 The Random Forest model achieved an ROC-AUC score of **1.000** on the test set.
 
-![ROC Curve](images/roc_curve.png)
+![ROC Curve](roc_curve.png)
 
 ROC-AUC measures the model's ability to distinguish between customers who churn and customers who do not churn.
 
@@ -222,7 +222,7 @@ ROC-AUC measures the model's ability to distinguish between customers who churn 
 
 The Random Forest model was also used to identify the most important features.
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](feature_importance.png)
 
 The main features included:
 
@@ -266,7 +266,7 @@ Prediction Probability
 
 ### Application Preview
 
-![Streamlit Application](images/streamlit_app.png)
+![Streamlit Application](streamlit_app.png)
 
 ### Live Demo
 
