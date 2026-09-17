@@ -108,6 +108,8 @@ Some notable correlations were:
 
 These correlations provide an initial understanding of relationships between customer features and churn.
 
+![Correlation Heatmap](images/correlation_heatmap.png)
+
 ---
 
 ## Data Preprocessing
@@ -189,6 +191,8 @@ The Random Forest model achieved:
 
 ### Confusion Matrix
 
+![Confusion Matrix](images/confusion_matrix.png)
+
 The test set contained 200 samples.
 
 |  | Predicted No Churn | Predicted Churn |
@@ -209,6 +213,8 @@ This resulted in:
 
 The Random Forest model achieved an ROC-AUC score of **1.000** on the test set.
 
+![ROC Curve](images/roc_curve.png)
+
 ROC-AUC measures the model's ability to distinguish between customers who churn and customers who do not churn.
 
 ---
@@ -216,6 +222,8 @@ ROC-AUC measures the model's ability to distinguish between customers who churn 
 ## Feature Importance
 
 The Random Forest model was also used to identify the most important features.
+
+![Feature Importance](images/feature_importance.png)
 
 The main features included:
 
@@ -229,7 +237,6 @@ The main features included:
 Feature importance shows which features contributed most to the model's predictions.
 
 > **Note:** Feature importance is model-specific and should not be interpreted as proof of a causal relationship.
-
 ---
 
 ## Streamlit Deployment
@@ -258,6 +265,10 @@ Prediction Probability
 - Random Forest model
 - Simple and interactive interface
 
+### Application Preview
+
+![Streamlit Application](images/streamlit_app.png)
+
 ### Live Demo
 
 [🚀 Try the Customer Churn Prediction App](https://customer-churn-prediction-yc2ddshjwu5cayzmmsqk34.streamlit.app/)
@@ -271,17 +282,24 @@ pip install -r requirements.txt
 
 ```
 
-## Technologies Used
+## Tools Used
 
+### Programming & Data Analysis
 - Python
 - Pandas
 - NumPy
+
+### Data Visualization
 - Matplotlib
 - Seaborn
+
+### Machine Learning
 - Scikit-learn
+- Joblib
+
+### Development & Deployment
 - Jupyter Notebook
 - Streamlit
-- Joblib
 
 ---
 
@@ -298,24 +316,18 @@ Customer-Churn-Prediction/
 ├── README.md
 │
 └── images/
-    ├── feature_importance.png
+    ├── correlation_heatmap.png
     ├── confusion_matrix.png
-    └── roc_curve.png
+    ├── roc_curve.png
+    ├── feature_importance.png
+    └── streamlit_app.png
 ```
 
-## How to Run
+### Run Locally
 
-Clone the repository:
+Install the required libraries:
 
 ```bash
-git clone https://github.com/your-username/Customer-Churn-Prediction.git
-
-```
-
-cd Customer-Churn-Prediction
-
-```
-
 pip install -r requirements.txt
 
 ```
