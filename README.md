@@ -313,13 +313,11 @@ Customer-Churn-Prediction/
 ├── app.py
 ├── requirements.txt
 ├── README.md
-│
-└── images/
-    ├── correlation_heatmap.png
-    ├── confusion_matrix.png
-    ├── roc_curve.png
-    ├── feature_importance.png
-    └── streamlit_app.png
+├── correlation_heatmap.png
+├── confusion_matrix.png
+├── roc_curve.png
+├── feature_importance.png
+└── streamlit_app.png
 ```
 
 ### Run Locally
