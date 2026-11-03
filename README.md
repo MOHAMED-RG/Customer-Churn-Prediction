@@ -5,6 +5,12 @@
 This project focuses on predicting customer churn using Machine Learning.
 
 The project follows an end-to-end Machine Learning workflow, including data cleaning, exploratory data analysis, preprocessing, model training, model comparison, evaluation, and Streamlit deployment.
+---
+
+## 🚀 Live Demo
+
+🔗 **Streamlit App:**
+[🚀 Try the Customer Churn Prediction App](https://customer-churn-prediction-yc2ddshjwu5cayzmmsqk34.streamlit.app/)
 
 ---
 
